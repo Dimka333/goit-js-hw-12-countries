@@ -1,0 +1,84 @@
+@import "../node_modules/@pnotify/core/dist/PNotify.css";
+@import "../node_modules/@pnotify/mobile/dist/PNotifyMobile.css";
+@import "../node_modules/@pnotify/core/dist/Material.css";
+@import "../node_modules/material-design-icons/iconfont/material-icons.css";
+
+.search {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+
+  width: 400px;
+  height: 50px;
+  padding: 10px 20px;
+  border: 4px solid rgba(0, 0, 0, 0.445);
+  border-radius: 4px;
+  outline: none;
+  font-size: 26px;
+}
+.search-results {
+  font-size: 32px;
+}
+.dotted {
+  padding: 2.25em 1.6875em;
+  background-image: -webkit-repeating-radial-gradient(
+    center center,
+    rgba(41, 0, 224, 0.658),
+    rgba(4, 58, 207, 0.753) 3px,
+    transparent 1px,
+    transparent 100%
+  );
+  background-image: -moz-repeating-radial-gradient(
+    center center,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 1px,
+    transparent 1px,
+    transparent 100%
+  );
+  background-image: -ms-repeating-radial-gradient(
+    center center,
+    rgba(27, 165, 27, 0.2),
+    rgba(0, 0, 0, 0.2) 1px,
+    transparent 1px,
+    transparent 100%
+  );
+  background-image: repeating-radial-gradient(
+    center center,
+    rgba(28, 0, 153, 0.13),
+    rgba(21, 0, 114, 0.2) 1px,
+    transparent 1px,
+    transparent 100%
+  );
+  -webkit-background-size: 20px 20px;
+  -moz-background-size: 20px 20px;
+  background-size: 20px 20px;
+
+  width: 100%;
+  height: 50px;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-bottom: 120px;
+}
+.country-name {
+  text-align: center;
+  font-size: 70px;
+}
+.country-list {
+  width: 400px;
+  margin: 0 auto;
+}
+.country-properties {
+  margin-right: 30px;
+}
+.country-property {
+  font-size: 32px;
+  font-weight: 700;
+}
